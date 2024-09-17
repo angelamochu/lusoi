@@ -34,7 +34,7 @@
               <button class="primary-btn">BOOK NOW</button>
             </li>
           </ul>
-          <span class="fa fa-bars"></span>
+          <span class="fa fa-bars" onclick="menutoggle()"></span>
         </div>
       </div>
     </header>
@@ -44,8 +44,8 @@
         menulist.style.maxHeight ="0px";
 
         function menutoggle(){
-            if(menulist.style.maxHeight == "0px") {
-                menulist.style.maxHeight =" 100vh;"
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "100vh";
             }
             else{
                 menulist.style.maxHeight = "0px";
