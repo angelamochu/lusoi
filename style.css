@@ -109,25 +109,61 @@ header .navlinks span {
 .home button {
   margin-right: 20px;
 }
-.owl-nav .owl-prev, 
-.owl-nav .owl-next{
-    position: absolute;
-    top: 40%;
-    height: 50px;
-    width: 50px;
-    background: rgba(0, 0, 0, 0.5) !important;
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #fff;
+}
+.owl-nav .owl-prev {
+  left: 0;
+}
+.owl-nav .owl-next {
+  right: 0;
+}
+/* --------------- HOME END ----------------------------------- */
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* --------------- FORM book----------------------------------- */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px ;
+}
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.book{
+    padding: 40px 0;
+    background: #282834;
     color: #fff;
 }
-.owl-nav .owl-prev{
-    left: 0;
+h1{
+    font-family: serif;
+}
+.book h1{
+    font-size: 28px;
 
 }
-.owl-nav .owl-next{
-    right: 0;
+.book h1 span{
+    color: #7fc142;
 }
-
-
-/* --------------- HOME END ----------------------------------- */
+.book  input{
+    padding: 20px;
+}
+.book input:nth-child(1){
+    background: #7fc142 ;
+    color: #fff;
+}
+/* --------------- FORM book END ----------------------------------- */
 
 /* -------------media query-------------- */
 @media only screen and (max-width: 768px) {
