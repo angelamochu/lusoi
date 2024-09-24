@@ -440,12 +440,51 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores pariatur odio, quaerat laborum
                     nam?</p>
             </div>
-            <div class="content">
-
+            <div class="content mtop">
+                <div class="owl-carousel owl-carousel1 owl-theme">
+                    <div class="items">
+                        <div class="img">
+                            <img src="img/hotelimg.jpg" alt="ttt" >
+                        </div>
+                        <div class="overlay">
+                            <span class="fa fa-plus"> </span>
+                            <h3>Title photo</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!--------------------------- GALLERY end ------------------------------------->
+    <!--------------------------- GALLERY script ------------------------------------->
+    <script>
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 40,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            navText: [
+                "<i class= 'fa fa-chevron-left'></i>",
+                "<i class= 'fa fa-chevron-right'></i>",
+            ],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                768: {
+                    items: 2,
+                    margin: 10,
+                },
+                1000: {
+                    items: 3,
+                },
+            },
+        });
+    </script>
+    <!--------------------------- GALLERY script end ------------------------------------->
 
 
 </body>
