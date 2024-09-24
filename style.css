@@ -339,6 +339,17 @@ h1 {
   opacity: 1;
   cursor: pointer;
 }
+
+.gallery .owl-nav .owl-prev{
+  left: 85%;
+}
+.gallery .owl-nav .owl-next{
+  right: 5%;
+}
+.gallery .owl-nav .owl-prev,
+.gallery .owl-nav .owl-next{
+  top: -40%;
+}
 /* --------------- gallery END ----------------------------------- */
 
 /* -------------media query-------------- */
