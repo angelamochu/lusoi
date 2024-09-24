@@ -440,6 +440,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolores pariatur odio, quaerat laborum
                     nam?</p>
             </div>
+            </div>
             <div class="content mtop">
                 <div class="owl-carousel owl-carousel1 owl-theme">
                     <div class="items">
@@ -451,16 +452,17 @@
                             <h3>Title photo</h3>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
+       
     </section>
     <!--------------------------- GALLERY end ------------------------------------->
     <!--------------------------- GALLERY script ------------------------------------->
     <script>
         $(".owl-carousel").owlCarousel({
             loop: true,
-            margin: 40,
+            margin: 0,
             nav: true,
             dots: false,
             autoplay: true,
@@ -475,11 +477,11 @@
                     items: 1,
                 },
                 768: {
-                    items: 2,
-                    margin: 10,
+                    items: 4,
+                    
                 },
                 1000: {
-                    items: 3,
+                    items: 6,
                 },
             },
         });
