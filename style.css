@@ -134,7 +134,7 @@ header .navlinks span {
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  column-gap: 20px;
 }
 input {
   outline: none;
@@ -289,6 +289,7 @@ h1 {
   right: 0;
 }
 /* --------------- rooms END ----------------------------------- */
+
 /* --------------- Gallery----------------------------------- */
 .gallery {
   position: relative;
@@ -340,17 +341,58 @@ h1 {
   cursor: pointer;
 }
 
-.gallery .owl-nav .owl-prev{
+.gallery .owl-nav .owl-prev {
   left: 85%;
 }
-.gallery .owl-nav .owl-next{
+.gallery .owl-nav .owl-next {
   right: 5%;
 }
 .gallery .owl-nav .owl-prev,
-.gallery .owl-nav .owl-next{
+.gallery .owl-nav .owl-next {
   top: -40%;
 }
 /* --------------- gallery END ----------------------------------- */
+
+/* --------------- Services ----------------------------------- */
+.services {
+  position: relative;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* column-gap: 30px; */
+  row-gap: 30px;
+}
+.services .left {
+  padding: 30px 0;
+}
+.services .box {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: 0.5s;
+  padding: 20px;
+}
+.services .box .text {
+  padding: 30px 0;
+  border: 1px dashed #fff;
+}
+
+.services i {
+  font-size: 50px;
+  color: #7fc142;
+  transition: 0.5s;
+}
+.services h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.services img {
+  width: 100%;
+  height: 100%;
+}
+/* --------------- Services END ----------------------------------- */
 
 /* -------------media query-------------- */
 @media only screen and (max-width: 768px) {
