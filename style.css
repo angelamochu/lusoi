@@ -86,6 +86,7 @@ header .navlinks span {
   color: #fff;
   margin: 0 10px;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 
 /* --------------HOME ------------------------------------------------ */
