@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
+    <!-- bootstrap for gallery -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.4/components/projects/project-2/assets/css/project-2.css"
+    />
+
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -34,6 +44,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- js  for gallery-->
+    <script src="https://unpkg.com/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/bs-brain@2.0.4/components/projects/project-2/assets/controller/project-2.js"></script>
+    <!-- js -->
     <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
@@ -79,211 +96,319 @@
     </script>
     <!-- -------------------------js for menu end --------------------------------------------------- -->
 
-    <section class="juu">
-      <h3>This is our galery</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem enim
-        accusantium, amet dolore culpa harum vitae ad, iste reprehenderit
-        officiis nostrum eos magni architecto sed et. Nobis eos rerum placeat!
-      </p>
-    </section>
-    <section>
-      <!-- Gallery -->
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Boat on Calm Water"
-          />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Wintry Mountain Landscape"
-          />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Mountains in the Clouds"
-          />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Boat on Calm Water"
-          />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Waves at Sea"
-          />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Yosemite National Park"
-          />
+    <!-- Project 2 - Bootstrap Brain Component -->
+    <section class="bg-light py-5 py-xl-8">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 display-5 text-center">Our Projects</h2>
+            <p class="text-secondary mb-5 text-center lead fs-4">
+              We are committed to working with our partners and customers to
+              develop products that make a difference in the world.
+            </p>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+          </div>
         </div>
       </div>
-      <!-- Gallery -->
-    </section>
-      <!--------------------------- Footer ------------------------------------->
-      <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="my-">
 
-  <!-- Footer -->
-  <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #1c2331"
-          >
-    <!-- Section: Social media -->
-    <section
-             class="d-flex justify-content-between p-4"
-             style="background-color: #7fc142"
-             >
-      <!-- Left -->
-      <div class="me-5">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
-
-      <!-- Right -->
-      <div>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="text-white me-4">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold">Company name</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+      <div class="container overflow-hidden">
+        <div class="row gy-2 g-md-2 g-xl-3 bsb-project-2-grid">
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale-up bsb-hover-scale"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Photography"
                 />
-            <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
-            </p>
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Canvas Lover</h3>
+                <div class="text-white bsb-hover-fadeInRight">Photography</div>
+              </figcaption>
+            </figure>
           </div>
-          <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Products</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale bsb-hover-scale-up"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Nature"
                 />
-            <p>
-              <a href="#!" class="text-white">MDBootstrap</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">MDWordPress</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">BrandFlow</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Bootstrap Angular</a>
-            </p>
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Red Lava</h3>
+                <div class="text-white bsb-hover-fadeInDown">Nature</div>
+              </figcaption>
+            </figure>
           </div>
-          <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale-up bsb-hover-scale"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Adventure"
                 />
-            <p>
-              <a href="#!" class="text-white">Your Account</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Help</a>
-            </p>
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Jungle Book</h3>
+                <div class="text-white bsb-hover-fadeInRight">Adventure</div>
+              </figcaption>
+            </figure>
           </div>
-          <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale bsb-hover-scale-up"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Adventure"
                 />
-            <p><i class="fas fa-home mr-3"></i> Nairobi, KENYA</p>
-            <p><i class="fas fa-envelope mr-3"></i> akinyioliviacodes@gmail.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Wavy Road</h3>
+                <div class="text-white bsb-hover-fadeInDown">Adventure</div>
+              </figcaption>
+            </figure>
           </div>
-          <!-- Grid column -->
+
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale bsb-hover-scale-up"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Photography"
+                />
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Golden Leaves</h3>
+                <div class="text-white bsb-hover-fadeInDown">Photography</div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale bsb-hover-scale-up"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Design"
+                />
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInUp">Minimal Notions</h3>
+                <div class="text-white bsb-hover-fadeInDown">Design</div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale-up bsb-hover-scale"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Design"
+                />
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Bright Winks</h3>
+                <div class="text-white bsb-hover-fadeInRight">Design</div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-12 col-md-4 bsb-project-2-item">
+            <figure
+              class="rounded rounded-3 overflow-hidden bsb-overlay-hover m-0"
+            >
+              <a href="#!">
+                <img
+                  class="img-fluid bsb-scale-up bsb-hover-scale"
+                  src="https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg"
+                  alt="Photography"
+                />
+              </a>
+              <figcaption>
+                <h3 class="text-white bsb-hover-fadeInLeft">Innovative Day</h3>
+                <div class="text-white bsb-hover-fadeInRight">Photography</div>
+              </figcaption>
+            </figure>
+          </div>
         </div>
-        <!-- Grid row -->
       </div>
     </section>
-    <!-- Section: Links  -->
-
-    <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2024 Copyright:
-      <a class="text-white" href="https://olivia-portfolio-chi.vercel.app/"
-         >SheCodes.com</a
+    <!--------------------------- Footer ------------------------------------->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="my-">
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white"
+        style="background-color: #1c2331"
+      >
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-between p-4"
+          style="background-color: #7fc142"
         >
+          <!-- Left -->
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Company name</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-white">MDBootstrap</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">MDWordPress</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">BrandFlow</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Bootstrap Angular</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-white">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><i class="fas fa-home mr-3"></i> Nairobi, KENYA</p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i>
+                  akinyioliviacodes@gmail.com
+                </p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2024 Copyright:
+          <a class="text-white" href="https://olivia-portfolio-chi.vercel.app/"
+            >SheCodes.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!-- End of .container -->
 
-</div>
-<!-- End of .container -->
-
-  <!--------------------------- Footer end ------------------------------------->
-
+    <!--------------------------- Footer end ------------------------------------->
   </body>
 </html>
