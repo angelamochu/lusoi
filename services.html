@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/bsb-btn-circle/bsb-btn-circle.css">
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/margin/margin.css">
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+
+    
     
     <!-- bootstrap -->
     <link
@@ -45,9 +47,62 @@
       integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <header>
+    <!-- Navbar 1 - Bootstrap Brain Component -->
+<nav class="navbar navbar-expand-md bg-dark bsb-navbar bsb-navbar-hover bsb-navbar-caret">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="./img/77287.png" alt="BootstrapBrain Logo" width="135" height="44">
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="color: #fff;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="color: #fff;">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+            <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
+              <li><a class="dropdown-item" href="#!">Log in</a></li>
+              <li><a class="dropdown-item" href="#!">Lost Password?</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#!">Sign up</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#!">Writing</a></li>
+              <li><a class="dropdown-item" href="#!">SEO</a></li>
+              <li><a class="dropdown-item" href="#!">Web Design</a></li>
+              <li><a class="dropdown-item" href="#!">App Development</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+    <!-- <header>
         <div class="content flex_space">
             <div class="logo">
                 <img src="/img/logo2.png" alt="" />
@@ -60,7 +115,7 @@
                     <li><a href="rooms.html">Rooms</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <!-- SEARCH -->
+                   
                     <li><i class="fa fa-search"></i></li>
                     <li>
                         <button class="primary-btn">BOOK NOW</button>
@@ -69,7 +124,7 @@
                 <span class="fa fa-bars" onclick="menutoggle()"></span>
             </div>
         </div>
-    </header>
+    </header> -->
     <!--------------------------- JAVASCRIPT FOR MENU -------------------------------------------------------------->
     <script>
         var menulist = document.getElementById("menulist");
@@ -84,6 +139,8 @@
         }
     </script>
     <!-- -------------------------js for menu end --------------------------------------------------- -->
+     <!-- Hero 1 - Bootstrap Brain Component -->
+
 
     <!-- -------------------------Services --------------------------------------------------- -->
      <!-- Service 9 - Bootstrap Brain Component -->
@@ -92,7 +149,7 @@
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
         <h2 class="mb-4 display-5 text-center">Our Services</h2>
-        <p class="text-secondary mb-5 text-center lead fs-4">Our comprehensive range of services caters to cyclists of all levels, whether you're a casual rider, a commuter, or a seasoned enthusiast.</p>
+        <p class="text-secondary mb-5 text-center lead fs-4">Our comprehensive range of services caters to cyclists of all levels,t.</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
     </div>
@@ -358,6 +415,6 @@
       <!-- End of .container -->
     
         <!--------------------------- Footer end ------------------------------------->
-    
+        <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -82,6 +82,11 @@ header .navlinks span {
   display: none;
 }
 /*------------------------------ HEADER END ----------------------------------------------------- */
+.nav-link{
+  color: #fff;
+  margin: 0 10px;
+  transition: 0.5s;
+}
 
 /* --------------HOME ------------------------------------------------ */
 .home {
@@ -680,5 +685,11 @@ h1 {
     cursor: pointer;
     line-height: 10vh;
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offcanvas-body {
+    background-color: #7fc142;
+    text-align: center;
   }
 }
