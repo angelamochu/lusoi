@@ -88,7 +88,9 @@ header .navlinks span {
   transition: 0.5s;
   text-transform: uppercase;
 }
-
+.navbar{
+  height: 10vh;
+}
 /* --------------HOME ------------------------------------------------ */
 .home {
   height: 100vh;
