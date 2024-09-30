@@ -280,8 +280,8 @@ h1 {
   font-weight: 400;
   color: #000;
 }
-.owl-nav .owl-prev,
-.owl-nav .owl-next {
+.owl-carousel1 .owl-nav .owl-prev,
+.owl-carousel1 .owl-nav .owl-next {
   position: absolute;
   top: -20%;
   height: 50px;
@@ -289,14 +289,14 @@ h1 {
   background: #7fc142 !important;
   color: #fff;
 }
-.owl-nav .owl-prev i,
-.owl-nav .owl-next i {
+.owl-carousel1 .owl-nav .owl-prev i,
+.owl-carousel1 .owl-nav .owl-next i {
   color: #fff;
 }
-.owl-nav .owl-prev {
+.owl-carousel1 .owl-nav .owl-prev {
   left: 90%;
 }
-.owl-nav .owl-next {
+.owl-carousel1 .owl-nav .owl-next {
   right: 0;
 }
 /* --------------- rooms END ----------------------------------- */
