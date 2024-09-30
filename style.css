@@ -203,6 +203,7 @@ h1 {
 }
 .mtop {
   margin-top: 40px;
+ 
 }
 .heading h1 {
   font-size: 100px;
@@ -283,11 +284,12 @@ h1 {
   margin-right: 5px;
 }
 .rooms p {
-  margin: 20px 0;
+  margin: 16px 0;
   opacity: 0.7;
+  font-size: 15px;
 }
 .rooms h3 {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 20px;
   margin-left: 20px;
   font-weight: 500;
@@ -317,6 +319,7 @@ h1 {
 .owl-carousel1 .owl-nav .owl-next {
   right: 0;
 }
+
 /* --------------- rooms END ----------------------------------- */
 
 /* --------------- Gallery----------------------------------- */
