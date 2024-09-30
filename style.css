@@ -389,6 +389,11 @@ h1 {
 .services {
   position: relative;
 }
+#services{
+background-color: pink;
+display: flex;
+flex-wrap: wrap;
+}
 .grid2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
