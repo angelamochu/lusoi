@@ -50,6 +50,8 @@ button {
   max-width: 85%;
   margin: auto;
 }
+
+
 /*----------------------------- HEADER ----------------------------------------------------*/
 header {
   height: 10vh;
@@ -141,10 +143,24 @@ header .navlinks span {
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* --------------- FORM book----------------------------------- */
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 20px;
+  padding: 20px;
+} */
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+
+  & > input {
+    flex: 1 1 10ch;
+    margin: 0.5rem;
+
+    &[type='email'] {
+      flex: 3 1 30ch;
+    }
+  }
 }
 input {
   outline: none;
@@ -157,6 +173,7 @@ input {
   background: #282834;
   color: #fff;
 }
+
 h1 {
   font-family: serif;
 }
@@ -251,8 +268,9 @@ h1 {
 
 /* --------------- rooms ----------------------------------- */
 .rooms {
-  position: relative;
+  position: relative; 
 }
+
 .rooms .text {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-top: none;
