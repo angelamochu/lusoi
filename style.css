@@ -591,13 +591,13 @@ flex-wrap: wrap;
   font-size: 16px;
 }
 
-.pricing1 .onoffswitch {
+/* .pricing1 .onoffswitch {
   width: 70px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   margin: 0 auto;
-}
+} */
 
 .pricing1 .onoffswitch-label {
   cursor: pointer;
